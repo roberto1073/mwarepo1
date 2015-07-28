@@ -7,17 +7,6 @@
 	<hlayout>
        	<n:d-calendar id="cal" class="light-theme" selectedDate="2/22/15" />       	
        </hlayout>
-       <n:script>
-       	zk.afterLoad(function() {
-       		jq('#cal').on('d-calendar-date-selected', function(evt) {
-       			var selDate = evt.originalEvent.detail.date;
-	        	if (selDate instanceof Date) {
-		        	zkbind.$('$cal').command('doDateSelected', 
-		        		{date: selDate.getDate(), month: selDate.getMonth() + 1,
-		        		 year: selDate.getFullYear()});
-	        	}
-       		});
-       	});
-       </n:script>
+      
 </window>
 </zk>
