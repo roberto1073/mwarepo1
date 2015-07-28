@@ -4,10 +4,7 @@
 <liferay-portlet-app>
 	<portlet>
 		<portlet-name>demo1</portlet-name>
-		<icon>/icon.png</icon>
-		<header-portlet-css>/css/main.css</header-portlet-css>
-		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
-		<css-class-wrapper>demo1-portlet</css-class-wrapper>
+	    <header-portlet-javascript>/zkau/web/js/zk.wpd</header-portlet-javascript>	    
 	</portlet>
 	<role-mapper>
 		<role-name>administrator</role-name>
