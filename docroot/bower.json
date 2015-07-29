@@ -1,0 +1,27 @@
+{
+  "name": "mwa",
+  "version": "0.0.0",
+  "homepage": "https://github.com/roberto1073/mwarepo1",
+  "authors": [
+    "Roberto <roberto1073@gmail.com>"
+  ],
+  "description": "polymer zk portlet",
+  "main": "index.zul",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "polymer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.0.0"
+  }
+}

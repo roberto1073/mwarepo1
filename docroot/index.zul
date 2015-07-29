@@ -1,5 +1,5 @@
 <zk>
-<?link rel="import" href="components/bower_components/d-calendar/d-calendar.html"?>
+<?link rel="import" href="bower_components/d-calendar/d-calendar.html"?>
 <window apply="org.zkoss.bind.BindComposer" 
 	viewModel="@id('vm') @init('org.zkoss.demo.zk8_polymer_demo.DemoViewModel')"
 	validationMessages="@id('vmsgs')"
